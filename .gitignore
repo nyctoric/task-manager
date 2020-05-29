@@ -1,0 +1,11 @@
+/node_modules
+npm-debug.log
+.DS_Store
+/*.env
+/playground
+/node-course-images
+/config
+/images
+mongodb-2.js
+mongodb-3.js
+mongodb.js
