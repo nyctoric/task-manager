@@ -44,8 +44,7 @@ router.post('/users/login', async (req, res) => {
 });
 
 router.get('/users/me', auth, async (req, res) => {
-  res.send("you got this far at least");
-  // res.send(req.user);
+  res.send(req.user);
 });
 
 router.post('/users/logout', auth, async (req, res) => {
